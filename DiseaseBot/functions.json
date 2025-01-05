@@ -1,0 +1,21 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "get_suggested_disease",
+            "description": "Retrieves symptoms from user and provides potential diseases",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "symptom": {
+                        "type": "string",
+                        "description": "The symptoms of the disease."
+                    }
+                },
+                "required": [
+                    "symptom"
+                ]
+            }
+        }
+    }
+]   
